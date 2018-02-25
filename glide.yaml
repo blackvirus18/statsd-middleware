@@ -1,0 +1,10 @@
+package: github.com/blackvirus18/statsd-middleware
+import:
+- package: github.com/cactus/go-statsd-client
+- package: github.com/codegangsta/negroni
+  version: ^0.2.0
+- package: github.com/afex/hystrix-go
+  version: 39520ddd07a9d9a071d615f7476798659f5a3b89
+  subpackages:
+  - hystrix
+
