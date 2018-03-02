@@ -10,7 +10,7 @@ This is a Go library which can be added as a middleware in any Go project for st
 n.Use(instrumentation.StatsDMiddlewareLogger())
 
 ```
-## Enable Hystrix metrics to flow into statsd
+## Enable hystrix metrics to flow into statsd
 
 ```
 hystrixStreamHandler := hystrix.NewStreamHandler()
